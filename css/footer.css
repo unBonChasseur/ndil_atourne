@@ -1,0 +1,18 @@
+*{
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, 'Times New Roman', sans-serif, Impact;
+	scroll-behavior: smooth;
+}
+.copyright{
+	color: #fff;
+	background: #111;
+	text-align: center;
+	padding: 10px;
+}
+
+.copyright p{
+	margin: 0;
+	font-size: 16px;
+}

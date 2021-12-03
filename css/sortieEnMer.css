@@ -1,0 +1,173 @@
+
+section {
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Banniere */
+.banner{
+    overflow: hidden;
+    display: flex;
+    max-height: 100vh;
+}
+
+.banner .imgBackground img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.8;
+    object-fit: cover;
+    height: 100%;
+}
+
+.banner .content{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 40px;
+    width: 100%;
+    margin: auto;
+}
+
+.banner .content .pitch{
+    font-size: 24px;
+}
+
+/* Nav */
+.menuPeriode{
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 120px;
+}
+
+.menuPeriode.sticky{
+    position: fixed;
+    top: 75px;
+    z-index: 1000;
+}
+
+.menuPeriode ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 24px;
+}
+
+.menuPeriode ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuPeriode ul a:hover{
+    color: #ddd;
+}
+
+
+/* XVIII sciècle */
+
+.sciecleInfo.style1{
+    background-color: #111;
+}
+
+.sciecleInfo.style2{
+    background-color: #222;
+}
+
+.sciecleInfo .title{
+	width: 100%;
+	text-align: center;
+    padding-top: 75px;
+}
+
+.sciecleInfo .title h2{ 
+	position: relative;
+	font-size: 1.8em;
+	font-weight: 700;
+	letter-spacing: 1px;
+    color: #fff;
+}
+
+.sciecleInfo .title p{
+	max-width: 700px;
+	display: inline-block;
+    color: #fff;
+    padding: 20px;
+}
+
+.sciecleInfo .title .resume{
+    max-width: 100%;
+    text-align: justify;
+    width: 100%;
+    background-color: #999;
+    margin: 50px 0;
+}
+
+
+.sciecleInfo .title h2::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+	width: 60px;
+	height: 4px;
+	background: #fff;
+}
+
+.sciecleInfo .numberBox{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 50px;
+}
+
+.sciecleInfo .numberBox .sortie, .sciecleInfo .numberBox .death{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sciecleInfo .numberBox .saved{
+    display: flex;
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sciecleInfo .numberBox .sortie p, .sciecleInfo .numberBox .saved p, .sciecleInfo .numberBox .death p{
+    text-align: center;
+    margin: auto;
+}
+
+.sciecleInfo .listArticle{
+    padding-top: 20px;
+    display: flex;
+}
+
+.sciecleInfo .listArticle .yearBox{
+    width: 250px;
+    min-height: 150px;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.sciecleInfo .listArticle .yearBox h2{
+    padding: 5px;
+}
+
+.sciecleInfo .listArticle .yearBox ul{
+    list-style: none;
+    padding-left: 15px;
+}
